@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A7543"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".splash_screen">
+<!--    <ImageView-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        -->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:id="@+id/isplash_mg"/>-->
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center"
+        android:layout_height="331dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        app:lottie_rawRes="@raw/splash_ani"/>
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#A9B3A3"
+        android:layout_marginTop="20sp"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="From"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="#F1EEEE"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:layout_above="@+id/splash_txt"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="LEARN QUIT"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#105C55"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:id="@+id/splash_txt"/>-->
+
+
+</LinearLayout>

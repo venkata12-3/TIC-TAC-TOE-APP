@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A54A4A"
+    tools:context=".registration_player">
+
+    <TextView
+        android:id="@+id/txtlogintitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="TIC TAC TOE"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:background="#20AC37"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlogintitle"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="25dp"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputemail"
+            android:layout_width="335dp"
+            android:layout_height="match_parent"
+            android:hint="player1 name"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:background="#20AC37"
+
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtlogintitle"
+        android:layout_marginTop="100dp"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="12dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/input1"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:hint="player2 name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlogintitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#432B2B"
+        android:text="register"
+        android:id="@+id/btnlogin"
+        android:textSize="25sp" />
+
+
+
+
+</RelativeLayout>
